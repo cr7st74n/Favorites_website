@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(46, 4, 85);
+    color: white;
+}
+
+
+header #page_title {
+    color:rgb(156, 240, 240);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    width: 96%;
+    text-align: center;
+}
+div h2.title_favs{
+    padding: 1rem 1.2rem;
+    font-size: 3rem;
+}
+
+.fav_1{
+    display: flex;
+    margin: 10px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: bisque;
+}
+
+ .fav_2{
+ }
