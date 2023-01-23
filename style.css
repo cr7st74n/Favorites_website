@@ -12,24 +12,46 @@ header #page_title {
     justify-content: center;
 }
 
-div {
-    width: 96%;
+div .fav {
+    margin: 15px;
+    padding: 15px;
+    border: 10px;
     text-align: center;
 }
-div h2.title_favs{
+
+.title_favs{
     padding: 1rem 1.2rem;
     font-size: 3rem;
+    color: coral;
 }
 
-.fav_1{
-    display: flex;
-    margin: 10px;
-    padding: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-color: bisque;
+#titles-movie {
+    font-style: italic;
+    color: blue;
+}
+#titles-music {
+    font-style:bold;
+    color: red;
 }
 
- .fav_2{
- }
+#most-favorite-food{
+    color: greenyellow;
+    font-weight: 100;
+}
+.favorite-image{
+    border-radius: 50%;
+}
+
+.table-C, th, td{
+    border: 10px solid;
+    color: black;
+}
+
+.ttitle{
+    color: cornflowerblue;
+}
+
+.tbody{
+    color: darkred;
+
+}
